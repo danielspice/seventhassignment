@@ -1,0 +1,50 @@
+body{
+    background-color: #f3eae3;
+}
+.container{
+ display: flex;
+ background-color: white;
+ width: 550px;
+ margin: 40px auto;
+ border-radius: 10px;
+}
+
+.image{
+    max-width: 300px;
+    border-radius: 10px;
+}
+.words{
+    margin-left: 20px;
+}
+.perfume{
+    color: grey;
+}
+.class{
+    color: grey;
+}
+.h1{
+    color: darkgreen;
+}
+
+.number{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sold{
+    text-decoration: line-through;
+    color: grey;
+}
+
+.addcart{
+    background-color: green;
+    width: 220px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+.addcart img {
+    margin-right: 10px;
+}
